@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+
+header {
+    height: 400px;
+    background-image: url('image.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.container h1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100%;
+    color: white;
+}
+
+.container nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.container input {
+    width: 300px;
+    height: 50px;
+    border: 1px solid rgba(102, 102, 102, 1);
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    color: rgba(102, 102, 102, 1);
+}
+
+.more-div {
+    width: 277px;
+    margin-left: 64px;
+    margin-top: 30px;
+}
+
+.more-div h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    color: white;
+}
+
+.more-div button {
+    width: 109px;
+    height: 55px;
+    background-color: rgba(118, 185, 0, 1);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-top: 107px;
+    cursor: pointer;
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    color: black;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.box-parent {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.box-parent .child-box {
+    width: 290px;
+    height: 302px;
+    box-shadow: 0 17px 27px -4px rgba(0, 0, 0, 0.25);
+}
+
+.child-box img {
+    width: 290px;
+    height: 163px;
+}
+
+.child-box h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-top: 20px;
+    margin-left: 56px;
+}
+
+.child-box p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 100%;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 100px;
+    margin-top: 37px;
+}
+
+.hero:nth-child(2),
+.hero:nth-child(3) {
+    margin-top: 100px;
+}
+
+.hero2 {
+    height: 351px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    margin-top: 39px;
+}
+
+
+.hero2 .course-box {
+    width: 416px;
+}
+
+.course-box h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    color: rgba(103, 185, 0, 1);
+}
+
+.course-box p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-top: 28px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.course-box button {
+    width: 233px;
+    height: 60px;
+    border: none;
+    background-color: rgba(118, 185, 0, 1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 100%;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+    margin-top: 75px;
+}
+
+footer {
+    height: 211px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+}
+
+footer h4 {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 100%;
+    color: rgba(102, 102, 102, 1);
+}
+
+body {
+    background-color: rgba(245, 245, 245, 1);
+}
